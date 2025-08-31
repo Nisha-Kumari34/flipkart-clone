@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height:80px;
+    background-color: white;
+    display:flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu bar{
+    width:24px;
+    height:24px;
+    margin-left: 5px;
+}
+.logo{
+    background-image:url("flpkrt logo.webp") ;
+    background-size:cover;
+    height:80px;
+    width:100px;
+}
+.navsearch{
+    /* display:inline; */
+    height:30px;
+    width:500px;
+    background-color: rgba(135, 207, 235, 0.204);
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 8px;
+    
+}
+.search icon{
+    gap:10px;
+    margin-left: 40px;
+}
+
+.boxa{
+    height:120px;
+    background-color: white;
+    margin: 15px;
+    display:inline;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.box-img{
+    height: 64px;
+    width:75px;
+
+}
+#name{
+     display:flex;
+    justify-content:center;
+    align-items: center;
+}
+body{
+    background-color: gray;
+}
+
+.boxb{
+   
+    background-color: white;
+    margin: 15px;
+     height:180px;
+    
+    
+
+}
+.img{
+    height:180px;
+    width:100%;
+    animation:img 25s linear 0s infinite normal;
+    background-size: contain;
+    position: relative;
+    /* background: no-repeat; */
+
+}
+@keyframes img{
+        0%{background-image: url("img1.webp");}
+        20%{background-image: url("img2.webp");}
+        40%{background-image: url("img3.webp");}
+        60%{background-image: url("img4.webp");}
+        80%{background-image: url("img5.webp");}
+        100%{background-image: url("img6.webp");}
+    }
+.boxv{
+        height:300px;
+        margin: 15px;
+}
+.box-cont{
+    
+    height: 50px;
+    font-size: larger;
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.head{
+    margin-left: 75px;
+}
+.boxc{
+    height:250px;
+    background-color: white;
+    display:flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin-top: 0px;
+    
+    
+}
+.pic{
+    height:200px ;
+    width:200px ;
+}
+#heading{
+   
+     display:flex;
+    justify-content:center;
+    align-items: center; 
+    font-weight: 500;
+}
+#price{
+     display:flex;
+    justify-content:center;
+    align-items: center;
+    font-weight:bolder;
+}
+/* .photo{
+    height:300px;
+    width:30%;
+    background-size: contain;
+} */
+ .boxw{
+    height: 300px;
+    margin: 15px;
+}
+.boxd{
+    background-color: white;
+    
+    display:inline;
+    display:flex;
+    height:250px;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.pict{
+    height:200px ;
+    width:200px ;
+}
+.boxe{
+    background-color: white;
+    
+    display:inline;
+    display:flex;
+    height:250px;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.boxx{
+    height: 300px;
+    margin: 15px;
+}
+.pictr{
+    height:200px ;
+    width:200px ;
+}
+.panel1{
+    background-color: #0f1111;
+    display:flex;
+    justify-content: space-evenly;
+    height: 280px;
+    
+}
+ul p{
+    display: block;
+    font-size: 1rem;
+    margin-top: 20px;
+    color:grey;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color:white ;
+    margin-top: 10px;
+}
+.iconic{
+    background-color: white;
+    width:20px;
+    display: inline;
+}
+.panel2{
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:50px;
+    color:white;
+}
+
+
